@@ -21,7 +21,7 @@
 
 如网站出现无法访问的情况，可尝试使用备用域名
 
-> [http://tool.imiku.me](http://tool.imiku.me)
+> [http://tool.minesky.top:88](http://tool.minesky.top:88)
 
 ## 介绍
 
@@ -67,21 +67,6 @@ A: Vue 全家桶 + [Nuxt.js](https://zh.nuxtjs.org/)
 ## 更新
 
 本仓库仅供一个开源版本的备份，并不用于纪录提交纪录等，当[主站](https://miku.tools)更新到一定程度上的稳定版本时，才会重新更新该仓库
-
-## 贡献者
-
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-<!-- prettier-ignore-start -->
-<!-- markdownlint-disable -->
-<table>
-  <tr>
-    <td align="center"><a href="https://github.com/Git-So"><img src="https://avatars0.githubusercontent.com/u/22292451?v=4" width="100px;" alt="Git-So"/><br /><sub><b>Git-So</b></sub></a><br /><a href="https://github.com/Ice-Hazymoon/MikuTools/commits?author=Git-So" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/KeJunMao"><img src="https://avatars0.githubusercontent.com/u/18414281?v=4" width="100px;" alt="KeJunMao"/><br /><sub><b>KeJunMao</b></sub></a><br /><a href="https://github.com/Ice-Hazymoon/MikuTools/commits?author=KeJunMao" title="Code">💻</a> <a href="#question-KeJunMao" title="Answering Questions">💬</a></td>
-    <td align="center"><a href="https://github.com/tamshen"><img src="https://avatars0.githubusercontent.com/u/33705179?v=4" width="100px;" alt="tamshen"/><br /><sub><b>tamshen</b></sub></a><br /><a href="#design-tamshen" title="Design">🎨</a></td>
-    <td align="center"><a href="https://github.com/houko"><img src="https://avatars0.githubusercontent.com/u/12625278?v=4" width="100px;" alt="houko"/><br /><sub><b>houko</b></sub></a><br /><a href="#translation-houko" title="Translation">🌍</a></td>
-    <td align="center"><a href="https://github.com/bougieL"><img src="https://avatars0.githubusercontent.com/u/36102904?v=4" width="100px;" alt="bougieL"/><br /><sub><b>bougieL</b></sub></a><br /><a href="https://github.com/Ice-Hazymoon/MikuTools/commits?author=bougieL" title="Code">💻</a> <a href="#ideas-bougieL" title="Ideas, Planning, & Feedback">🤔</a></td>
-  </tr>
-</table>
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
