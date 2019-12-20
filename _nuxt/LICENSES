@@ -5,6 +5,31 @@
   */
 
 /*!
+ * Vue.js v2.6.10
+ * (c) 2014-2019 Evan You
+ * Released under the MIT License.
+ */
+
+/*!
+  * vue-router v3.0.7
+  * (c) 2019 Evan You
+  * @license MIT
+  */
+
+/**
+ * vuex v3.1.1
+ * (c) 2019 Evan You
+ * @license MIT
+ */
+
+/*!
+ * Determine if an object is a Buffer
+ *
+ * @author   Feross Aboukhadijeh <https://feross.org>
+ * @license  MIT
+ */
+
+/*!
  * quantize.js Copyright 2008 Nick Rabinowitz.
  * Licensed under the MIT license: http://www.opensource.org/licenses/mit-license.php
  * @license
@@ -27,15 +52,9 @@
  */
 
 /*!
- * Vue.js v2.6.10
- * (c) 2014-2019 Evan You
- * Released under the MIT License.
- */
-
-/*!
  * The buffer module from node.js, for the browser.
  *
- * @author   Feross Aboukhadijeh <http://feross.org>
+ * @author   Feross Aboukhadijeh <feross@feross.org> <http://feross.org>
  * @license  MIT
  */
 
@@ -60,25 +79,6 @@
  * Released under the MIT License.
  */
 
-/*!
-  * vue-router v3.0.7
-  * (c) 2019 Evan You
-  * @license MIT
-  */
-
-/**
- * vuex v3.1.2
- * (c) 2019 Evan You
- * @license MIT
- */
-
-/*!
- * The buffer module from node.js, for the browser.
- *
- * @author   Feross Aboukhadijeh <feross@feross.org> <http://feross.org>
- * @license  MIT
- */
-
 /*
 object-assign
 (c) Sindre Sorhus
@@ -99,12 +99,7 @@ object-assign
  * @version   4.1.0
  */
 
-/*!
- * Determine if an object is a Buffer
- *
- * @author   Feross Aboukhadijeh <https://feross.org>
- * @license  MIT
- */
+//! invalid number
 
 /*!
  * clipboard.js v2.0.4
@@ -114,7 +109,7 @@ object-assign
  */
 
 /*!
- * html2canvas 1.0.0-rc.5 <https://html2canvas.hertzen.com>
+ * html2canvas 1.0.0-rc.4 <https://html2canvas.hertzen.com>
  * Copyright (c) 2019 Niklas von Hertzen <https://hertzen.com>
  * Released under MIT License
  */
@@ -179,8 +174,8 @@ object-assign
  * Copyright (c) 2011-2019 Jos de Jong, http://jsoneditoronline.org
  *
  * @author  Jos de Jong, <wjosdejong@gmail.com>
- * @version 7.2.1
- * @date    2019-10-27
+ * @version 7.0.4
+ * @date    2019-09-11
  */
 
 /*!
@@ -191,7 +186,7 @@ object-assign
  */
 
 /*!
- * vanilla-picker v2.10.0
+ * vanilla-picker v2.9.2
  * https://vanilla-picker.js.org
  *
  * Copyright 2017-2019 Andreas Borgen (https://github.com/Sphinxxxx), Adam Brooks (https://github.com/dissimulate)
