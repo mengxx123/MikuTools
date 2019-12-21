@@ -1,7 +1,10 @@
 <template>
     <nya-container title="背景图片" class="set-bg">
         <div class="radio-group">
-            <nya-radio-group :value="$store.state.setting.bg.type" @change="handleChange('setting.bg.type', $event)">
+            <nya-radio-group
+                :value="$store.state.setting.bg.type"
+                @change="handleChange('setting.bg.type', $event)"
+            >
                 <nya-radio value="none" label="无" />
                 <nya-radio value="anime" label="随机动漫图片" />
                 <nya-radio value="bing" label="必应每日壁纸" />
@@ -10,8 +13,17 @@
             </nya-radio-group>
         </div>
 
-        <nya-input v-show="$store.state.setting.bg.type === 'custom'" :value="$store.state.setting.bg.customUrl" label="输入壁纸链接" :placeholder="`${$store.state.env.url}/icon.png`" autocomplete="off" fullwidth @change="handleChange('setting.bg.customUrl', $event.target.value)" @keyup.enter="handleChange('setting.bg.customUrl', $event.target.value)" />
-        
+        <nya-input
+            v-show="$store.state.setting.bg.type === 'custom'"
+            :value="$store.state.setting.bg.customUrl"
+            label="输入壁纸链接"
+            :placeholder="`${$store.state.env.url}/icon.png`"
+            autocomplete="off"
+            fullwidth
+            @change="handleChange('setting.bg.customUrl', $event.target.value)"
+            @keyup.enter="handleChange('setting.bg.customUrl', $event.target.value)"
+        />
+
         <div v-show="$store.state.setting.bg.type === 'upload'">
             <div class="inputbtn">
                 <nya-input
@@ -28,36 +40,42 @@
                     class="nya-btn"
                     :disabled="upload.requestIn"
                     @click="uploadImg"
-                >
-                    {{ upload.requestIn ? '设置中' : '设置' }}
-                </button>
+                >{{ upload.requestIn ? '设置中' : '设置' }}</button>
             </div>
             <div v-if="upload.smmsData && upload.smmsData.url">
-                <div class="nya-subtitle">
-                    预览(当前背景)
-                </div>
-                <img class="preview" :src="upload.smmsData.url" alt="preview">
-                <div v-show="$store.state.setting.bg" class="nya-btn" @click="removeBg">
-                    移除背景
-                </div>
+                <div class="nya-subtitle">预览(当前背景)</div>
+                <img class="preview" :src="upload.smmsData.url" alt="preview" />
+                <div v-show="$store.state.setting.bg" class="nya-btn" @click="removeBg">移除背景</div>
             </div>
         </div>
-        <hr>
+        <hr />
 
-        <nya-checkbox :checked="$store.state.setting.bg.transparentEl" label="元素半透明" @change="handleChange('setting.bg.transparentEl', $event)" />
-        
-        <div class="nya-subtitle">
-            高斯模糊
-        </div>
+        <nya-checkbox
+            :checked="$store.state.setting.bg.transparentEl"
+            label="元素半透明"
+            @change="handleChange('setting.bg.transparentEl', $event)"
+        />
+
+        <div class="nya-subtitle">高斯模糊</div>
         <client-only>
-            <vue-slider :value="$store.state.setting.bg.blur" lazy :min="0" :max="100" @change="handleChange('setting.bg.blur', $event)" />
+            <vue-slider
+                :value="$store.state.setting.bg.blur"
+                lazy
+                :min="0"
+                :max="100"
+                @change="handleChange('setting.bg.blur', $event)"
+            />
         </client-only>
 
-        <div class="nya-subtitle">
-            透明度
-        </div>
+        <div class="nya-subtitle">透明度</div>
         <client-only>
-            <vue-slider :value="$store.state.setting.bg.opacity" lazy :min="1" :max="100" @change="handleChange('setting.bg.opacity', $event)" />
+            <vue-slider
+                :value="$store.state.setting.bg.opacity"
+                lazy
+                :min="1"
+                :max="100"
+                @change="handleChange('setting.bg.opacity', $event)"
+            />
         </client-only>
     </nya-container>
 </template>

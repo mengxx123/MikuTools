@@ -2,7 +2,7 @@
     <div class="navbar">
         <header>
             <h1 class="title">
-                <nuxt-link to="/">
+                <nuxt-link to="./">
                     MikuTools - 工具集合
                 </nuxt-link>
             </h1>
