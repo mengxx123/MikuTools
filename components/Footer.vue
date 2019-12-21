@@ -1,6 +1,6 @@
 <template>
     <div class="vfooter">
-        <a title="QQ群" href="https://jq.qq.com/?_wv=1027&k=5aPVskX" target="_blank" rel="noopener noreferrer">
+        <a title="QQ群" href="https://jq.qq.com/?_wv=1027&k=5cc7mhE" target="_blank" rel="noopener noreferrer">
             <svg class="icon" aria-hidden="true">
                 <use xlink:href="#icon-QQ" />
             </svg>
@@ -12,7 +12,7 @@
             </svg>
         </a>
         
-        <a title="GitHub" href="https://github.com/Ice-Hazymoon/MikuTools" target="_blank" rel="noopener noreferrer">
+        <a title="GitHub" href="https://github.com/CatMoe/MikuTools" target="_blank" rel="noopener noreferrer">
             <svg class="icon" aria-hidden="true">
                 <use xlink:href="#icon-github" />
             </svg>
@@ -24,11 +24,6 @@
             </svg>
         </a>
         
-        <a title="微博" href="http://weibo.com/u/3983176694" target="_blank" rel="noopener noreferrer">
-            <svg class="icon" aria-hidden="true">
-                <use xlink:href="#icon-weibo" />
-            </svg>
-        </a>
     </div>
 </template>
 

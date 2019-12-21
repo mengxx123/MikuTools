@@ -3,7 +3,7 @@
 <h1 align="center">Miku Tools</h1>
 <p align="center">一个轻量的工具集合</p>
 <p align="center">
-    <a href="https://github.com/Ice-Hazymoon/MikuTools/blob/master/LICENSE">
+    <a href="https://github.com/CatMoe/MikuTools/blob/master/LICENSE">
         <img src="https://img.shields.io/github/license/Ice-Hazymoon/MikuTools.svg" alt="MIT License" />
     </a>
     <a href="https://vuejs.org/">
@@ -75,11 +75,11 @@ A: Vue 全家桶 + [Nuxt.js](https://zh.nuxtjs.org/)
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/Git-So"><img src="https://avatars0.githubusercontent.com/u/22292451?v=4" width="100px;" alt="Git-So"/><br /><sub><b>Git-So</b></sub></a><br /><a href="https://github.com/Ice-Hazymoon/MikuTools/commits?author=Git-So" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/KeJunMao"><img src="https://avatars0.githubusercontent.com/u/18414281?v=4" width="100px;" alt="KeJunMao"/><br /><sub><b>KeJunMao</b></sub></a><br /><a href="https://github.com/Ice-Hazymoon/MikuTools/commits?author=KeJunMao" title="Code">💻</a> <a href="#question-KeJunMao" title="Answering Questions">💬</a></td>
+    <td align="center"><a href="https://github.com/Git-So"><img src="https://avatars0.githubusercontent.com/u/22292451?v=4" width="100px;" alt="Git-So"/><br /><sub><b>Git-So</b></sub></a><br /><a href="https://github.com/CatMoe/MikuTools/commits?author=Git-So" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/KeJunMao"><img src="https://avatars0.githubusercontent.com/u/18414281?v=4" width="100px;" alt="KeJunMao"/><br /><sub><b>KeJunMao</b></sub></a><br /><a href="https://github.com/CatMoe/MikuTools/commits?author=KeJunMao" title="Code">💻</a> <a href="#question-KeJunMao" title="Answering Questions">💬</a></td>
     <td align="center"><a href="https://github.com/tamshen"><img src="https://avatars0.githubusercontent.com/u/33705179?v=4" width="100px;" alt="tamshen"/><br /><sub><b>tamshen</b></sub></a><br /><a href="#design-tamshen" title="Design">🎨</a></td>
     <td align="center"><a href="https://github.com/houko"><img src="https://avatars0.githubusercontent.com/u/12625278?v=4" width="100px;" alt="houko"/><br /><sub><b>houko</b></sub></a><br /><a href="#translation-houko" title="Translation">🌍</a></td>
-    <td align="center"><a href="https://github.com/bougieL"><img src="https://avatars0.githubusercontent.com/u/36102904?v=4" width="100px;" alt="bougieL"/><br /><sub><b>bougieL</b></sub></a><br /><a href="https://github.com/Ice-Hazymoon/MikuTools/commits?author=bougieL" title="Code">💻</a> <a href="#ideas-bougieL" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/bougieL"><img src="https://avatars0.githubusercontent.com/u/36102904?v=4" width="100px;" alt="bougieL"/><br /><sub><b>bougieL</b></sub></a><br /><a href="https://github.com/CatMoe/MikuTools/commits?author=bougieL" title="Code">💻</a> <a href="#ideas-bougieL" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
